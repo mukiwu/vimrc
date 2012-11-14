@@ -125,9 +125,9 @@ let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 " - OmniCppComplete
 "Bundle 'OmniCppComplete'
 
-set tags+=~/vimfiles/tags/tags
+"set tags+=~/vimfiles/tags/tags
 "set tags+=~/vimfiles/tags/c++.tags
-set tags+=~/vimfiles/tags/stl-3.3.tags
+"set tags+=~/vimfiles/tags/stl-3.3.tags
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
@@ -170,14 +170,14 @@ Bundle 'tpope/vim-surround'
 "Bundle 'surround'
 
 " == Tagbar ==
-Bundle 'majutsushi/tagbar'
+"Bundle 'majutsushi/tagbar'
 
-let g:tagbar_autofocus = 1
-let g:tagbar_sort = 0
+"let g:tagbar_autofocus = 1
+"let g:tagbar_sort = 0
 
-if has('win32')
-    let g:tagbar_ctags_bin='C:\ctags.exe'
-endif
+"if has('win32')
+"    let g:tagbar_ctags_bin='C:\ctags.exe'
+"endif
 
 " == vim-indent-object ==
 "Bundle 'michaeljsmith/vim-indent-object'
