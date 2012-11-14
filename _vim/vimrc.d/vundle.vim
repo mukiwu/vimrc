@@ -54,7 +54,7 @@ filetype plugin indent on     " required!
 Bundle 'calendar.vim--Matsumoto'
 
 " == Colorscheme ==
-Bundle 'flazz/vim-colorschemes'
+"Bundle 'flazz/vim-colorschemes'
 
 " == ctrlp.vim ==
 Bundle 'kien/ctrlp.vim.git'
@@ -145,7 +145,7 @@ Bundle 'Lokaltog/vim-powerline'
 set laststatus=2
 set fillchars+=stl:\ ,stlnc:\ 
 "let g:Powerline_symbols = 'fancy'
-"set -g default-terminal "screen-256color"
+"set -g default-terminal 'screen-256color'
 
 " == pythoncomplete ==
 "Bundle 'pythoncomplete'
@@ -160,7 +160,7 @@ Bundle 'honza/snipmate-snippets'
 Bundle 'garbas/vim-snipmate'
 
 " == Ragtag =="
-Bundle 'tpope/vim-ragtag'
+"Bundle 'tpope/vim-ragtag'
 " Ctrl x Enter = 產生對應的 tag，而且中間會加上斷行
 " Ctrl x Space = 同上，但不會加上斷行
 
