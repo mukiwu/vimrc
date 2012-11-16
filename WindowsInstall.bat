@@ -36,13 +36,13 @@ echo Build Directory for autoload...
 mkdir "%VIMFILES%\autoload"
 
 echo Copy base init file to %VIMFILES% 
-copy _vimrc "%VIMFILES%"
-copy ctags.exe C:\
+copy _vimrc.win32 "%VIMRC%"
+copy ctags.exe C:\WINDOWS\system32\
 xcopy _vim\* "%VIMFILES%" /E /Y
 
 echo build vimrc shortcut...
-::mklink "%VIMRC%" "%VIMFILES%\_vimrc"
-copy _vimrc "%VIMFILES%"
+::mklink "%VIMRC%" "%VIMFILES%"\_vimrc
+copy _vimrc.win32 "%VIMRC%"
 
 echo Initial base plugin...
 call :InstallCurl
