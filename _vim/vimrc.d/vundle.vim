@@ -151,13 +151,18 @@ set fillchars+=stl:\ ,stlnc:\
 "Bundle 'pythoncomplete'
 
 " == snipMate  ==
+
+"- for Vim 7.0
+Bundle 'msanders/snipmate.vim'
+
+"- for Vim 7.2+
 "- Install dependencies:
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
-Bundle 'honza/snipmate-snippets'
+"Bundle 'MarcWeber/vim-addon-mw-utils'
+"Bundle 'tomtom/tlib_vim'
+"Bundle 'honza/snipmate-snippets'
 
 "- Install
-Bundle 'garbas/vim-snipmate'
+"Bundle 'garbas/vim-snipmate'
 
 " == Ragtag =="
 "Bundle 'tpope/vim-ragtag'
@@ -170,14 +175,14 @@ Bundle 'tpope/vim-surround'
 "Bundle 'surround'
 
 " == Tagbar ==
-Bundle 'majutsushi/tagbar'
-
-let g:tagbar_autofocus = 1
-let g:tagbar_sort = 0
-
-if has('win32')
-    let g:tagbar_ctags_bin='C:\ctags.exe'
-endif
+"Bundle 'majutsushi/tagbar'
+"
+"let g:tagbar_autofocus = 1
+"let g:tagbar_sort = 0
+"
+"if has('win32')
+"    let g:tagbar_ctags_bin='C:\ctags.exe'
+"endif
 
 " == vim-indent-object ==
 "Bundle 'michaeljsmith/vim-indent-object'
