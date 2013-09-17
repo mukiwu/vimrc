@@ -221,9 +221,9 @@ Bundle 'jQuery'
 Bundle 'php.vim'
 "Bundle 'cpp.vim'
 "Bundle 'django.vim'
-NeoBundle 'Python-Syntax'
-NeoBundle 'nginx.vim'
-NeoBundle 'rest.vim'
+Bundle 'Python-Syntax'
+Bundle 'nginx.vim'
+Bundle 'rest.vim'
 Bundle 'plasticboy/vim-markdown'
 "set syntax=rest
 
