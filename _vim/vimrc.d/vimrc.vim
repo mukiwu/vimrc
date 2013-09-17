@@ -48,7 +48,7 @@ set mouse=nv		" Enable mouse usage (Normal + Visual modes)
 
 " = Cutsom Main Environment =
 
-set autochdir		" auto cd curent dir.
+"set autochdir		" auto cd curent dir.
 set fileencodings=utf8
 set hlsearch		" (hls) Hightlight in Search
 set ignorecase		" (ic) Case sensitive searches
