@@ -81,6 +81,7 @@ set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 " == Gitv - need the fugitive plugin ==
 "Bundle 'gregsexton/gitv'
 Bundle 'gitv'				
+"NeoBundle 'gregsexton/gitv'
 Bundle 'tpope/vim-fugitive'
 
 " == Global Session ==
@@ -140,10 +141,13 @@ let OmniCpp_NamespaceSearch = 2 " search namespaces in this and included files
 " == phpfolding.vim ==
 Bundle 'phpfolding.vim'
 
+" == airline ==
+Bundle 'bling/vim-airline'
+
 " == Powerline for Vim ==
-Bundle 'Lokaltog/vim-powerline'
-set laststatus=2
-set fillchars+=stl:\ ,stlnc:\ 
+"Bundle 'Lokaltog/vim-powerline'
+"set laststatus=2
+"set fillchars+=stl:\ ,stlnc:\ 
 "let g:Powerline_symbols = 'fancy'
 "set -g default-terminal 'screen-256color'
 
@@ -151,12 +155,9 @@ set fillchars+=stl:\ ,stlnc:\
 "Bundle 'pythoncomplete'
 
 " == snipMate  ==
-"- Install dependencies:
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
-Bundle 'honza/snipmate-snippets'
-
-"- Install
+Bundle 'honza/vim-snippets'
 Bundle 'garbas/vim-snipmate'
 
 " == Ragtag =="
@@ -213,13 +214,17 @@ let g:vst_write_export=1	" plugin of vst default export html.
 
 " == Start Syntax ==
 Bundle 'vim-scripts/Python-Syntax'
-Bundle 'php.vim'
-Bundle 'jQuery'
 Bundle 'css_color.vim'
+Bundle 'css3'
+Bundle 'hail2u/vim-css3-syntax'
+Bundle 'jQuery'
+Bundle 'php.vim'
 "Bundle 'cpp.vim'
 "Bundle 'django.vim'
+NeoBundle 'Python-Syntax'
+NeoBundle 'nginx.vim'
+NeoBundle 'rest.vim'
 Bundle 'plasticboy/vim-markdown'
-"Bundle 'rest.vim'
 "set syntax=rest
 
 " ----
